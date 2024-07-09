@@ -1,0 +1,40 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.background {
+    background-image: url('./music.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:102 rem;
+    text-align: center;
+    margin: -1.4rem -0.5rem -1rem -1rem;
+    padding: 1rem 1rem 9.6rem 1rem;
+ }
+
+  .input ::-webkit-placeholder  {
+    color: #fafafa;
+    opacity: 1; 
+  }
+
+  .lyric {
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  pre {
+    color: aliceblue;
+    background-image: url('./music.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 500px;
+    opacity: 0.8;
+    border-radius: 20px;
+    margin: 1.5rem;
+    padding: 1.5rem;
+  }
